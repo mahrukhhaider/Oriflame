@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.feature {
+    display: flex;
+}
+
+.feature .app {
+    display: flex;
+    margin-inline: 22px;
+}
+
+.feature .app i {
+    margin-inline: 8px;
+}
+
+.sec-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: pink;
+    padding: 18px;
+}
+
+.oriflame-bar {
+    display: flex;
+    align-items: center;
+}
+
+.oriflame-bar img {
+    height: 40px; 
+    margin-right: 10px;
+}
+
+.oriflame-bar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.oriflame-bar a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-size: 18px; 
+}
+
+
+.oriflame-bar a:hover {
+    color: #ff007f; 
+}
+
+
+    
+.sec-nav ul li img {
+    width: 8%;
+    margin-left: 22px;
+}
+
+.sec-nav ul li a {
+    margin-inline: 22px;
+}
+
+
+.items ul {
+    list-style: none;
+    text-align: center;
+}
+
+.items ul li a {
+    margin-inline: 22px;
+    text-align: center;
+}
+
+.items ul li button {
+    width: 100px;
+    height: 34px;
+    background-color: pink;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+.main-page img{
+    width: 100%;
+}
+.pink img{
+    width: 100%;
+
+}
+.pink h2{
+    text-align: center;
+    padding: 7px;
+}
+.brand h2{
+    text-align: center;
+
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 33px;
+}
+.card img {
+    margin-inline: 22px;
+    width: 44%;
+}
+.topbrd{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 33px;
+}
+.topbrd img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.only-oriflame h2{
+    text-align: center;
+    padding: 22px;
+}
+.only-oriflame .only{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 33px;
+
+}
+.only-oriflame img{
+    margin-inline: 22px;
+    width: 43%;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+}
